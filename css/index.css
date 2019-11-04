@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* general styles */
 body{
-	margin: 2% 10% 0 10%;
+	margin: 0 auto;
+	padding: 3% 5%;
 }
 
 /* Header code */
@@ -227,7 +228,89 @@ footer{
 	text-align: center;
 }
 
-@
+/* TABLET VIEW */
+
+@media (max-width: 800px){
+	/* body{
+		margin: 0 auto;
+		padding: 0 3%;
+	} */
+	.nav-display{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.links{
+		padding: 2%;
+	}
+	.logo{
+		display: block;
+		padding: 2%;
+	}
+	.disapp{
+		display: none;
+	}
+}
+
+/* Mobile View */
+
+@media (max-width: 500px){
+	body{
+		margin: 0 auto; 
+	}
+
+	.spacing{
+		padding: 0 3%;
+	}
+
+	.links{
+		
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		
+	}
+	.links a{
+		width: 100%;
+		border-top: 2px solid lightgrey;
+		border-bottom: 2px solid lightgrey;
+		text-align: center;
+		padding: 4%;
+		font-size: 20px;
+	}
+
+	.sectionOne{
+		
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.feature{
+		width: 100%;
+		margin: 10% 0;
+	}
+	.about{
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10%;
+	}
+	.sectionTwo{
+		flex-direction: column;
+	}
+	.services{
+		width: 100%;
+		margin: 5% 0;
+	}
+	.product{
+		width: 100%;
+		margin: 5% 0;
+
+	}
+	.vision{
+		width:100%;
+		margin: 5% 0;
+	}
+}
+
+
 
 
 
