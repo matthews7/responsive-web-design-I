@@ -271,8 +271,8 @@ footer{
 	}
 	.links a{
 		width: 100%;
-		border-top: 2px solid lightgrey;
-		border-bottom: 2px solid lightgrey;
+		border-top: 1px solid lightgrey;
+		border-bottom: 1px solid lightgrey;
 		text-align: center;
 		padding: 4%;
 		font-size: 20px;
