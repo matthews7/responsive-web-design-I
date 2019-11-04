@@ -74,8 +74,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* general styles */
 body{
-	margin: 0 auto;
-	padding: 3% 5%;
+	margin: 2% 10% 0 10%;
 }
 
 /* Header code */
@@ -231,10 +230,7 @@ footer{
 /* TABLET VIEW */
 
 @media (max-width: 800px){
-	/* body{
-		margin: 0 auto;
-		padding: 0 3%;
-	} */
+
 	.nav-display{
 		display: flex;
 		flex-direction: column-reverse;
