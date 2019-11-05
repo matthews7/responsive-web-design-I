@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* general styles */
 body{
-	margin: 2% 10% 0 10%;
+	margin: 0 auto;
+	padding: 0 10%;
 }
 
 /* Header code */
@@ -230,6 +231,10 @@ footer{
 /* TABLET VIEW */
 
 @media (max-width: 800px){
+	body{
+		margin: 0 auto; 
+		padding: 0 5%;
+	}
 
 	.nav-display{
 		display: flex;
@@ -251,7 +256,8 @@ footer{
 
 @media (max-width: 500px){
 	body{
-		margin: 0 auto; 
+		margin: 0; 
+		padding: 0;
 	}
 
 	.spacing{
